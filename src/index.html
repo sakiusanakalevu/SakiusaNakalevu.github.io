@@ -5,26 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sakiusa Nakalevu</title>
+    <!-- Style sheet -->
+    <link rel="stylesheet" href="styles.css" />
+    <!--Shortcut icon for my portfolio-->
+    <link rel="icon" type="image/x-icon" href="./img/icon.png">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <!-- Menu/naviagtion section -->
-        <div class="nav-list" >
             <nav>
-                <input type="checkbox" class="toggle" />
-                    <section>
-                        <ul>
-                            <li><a href="Resume.pdf" target="_blank">Resume</a></li>
-                            <li><a href="contact-me.html" tabindex="0">Contact Me</a></li>
-                            <li><a href="blog.html" tabindex="0">Blog</a></li>
-                            <li><a href="about.html" tabindex="0">About</a></li>
-                            <li><a href="index.html" tabindex="0">Home</a></li>
-                        </ul>
-                    </section>
+                <input type="checkbox" id="checkbox_toggle" />
+                <label for="checkbox_toggle">Menu</label>
+                <section class="menu">
+                    <ul class="menu-items">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About Me</a></li>
+                        <li><a href="./blog.html">Blog</a></li>
+                        <li><a href="./contact.html">Contact Me</a></li>
+                        <li><a href="./img/Resume.pdf" target="_blank">Resume</a></li>
+                    </ul>
+                </section>
             </nav>
-            
-        </div>
     </header>
+
+     <!-- Landing page introduction -->
+     <section class="home-page">
+        <h5 class="para-one" >Hello, my name is</h5>
+        <h1>Sakiusa Nakalevu</h1>
+        <h3>Junior Developer</h3>
+    </section>
+
+
+
+
+    <section class="home-page">
+        <p class="para-two">Currently on a journey to becoming a fullstack web developer. I am looking
+            forward to the end result but currently enjoying the journey as student at <span><a class="coder"
+                    href="https://www.coderacademy.edu.au/">Coder Acadamy</a></span>.
+        </p>
+    </section>
+
+    <!-- Socials contact information linked in the footer below -->
+
+    <footer id="footer">
+        <hr>
+        <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"><img class="footer-icon" src="./img/linkedin.png" alt="LinkedIn"></a>
+        <a href="https://github.com/nakalevu"><img class="footer-icon" src="./img/github.png" alt="Github logo"></a>
+
+    </footer>
     
 </body>
 </html>
